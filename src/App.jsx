@@ -1,4 +1,18 @@
-// import { useState } from 'react'
+// import React from 'react';
+// import { ReactComponent as Logo } from './logo.svg';
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+import "./App.css";
+
+
+
 import rozetkaLogo from "./assets/rozetka_logo.svg";
 // import rozetkaLogoFull from "./assets/rozetka_logo_full.svg";
 import catalogIcon from "./assets/catalog.svg";
@@ -45,14 +59,29 @@ import telegram from "./assets/telegram.svg";
 import mastercard from "./assets/mastercard.svg";
 import visa from "./assets/visa.svg";
 
+import slide1 from "./assets/slides/slide-1.jpg";
+import slide2 from "./assets/slides/slide-2.jpg";
+import slide3 from "./assets/slides/slide-3.jpg";
+import slide4 from "./assets/slides/slide-4.jpg";
+import slide5 from "./assets/slides/slide-5.jpg";
+import slide6 from "./assets/slides/slide-6.jpg";
+import slide7 from "./assets/slides/slide-7.jpg";
+import slide8 from "./assets/slides/slide-8.jpg";
+import slide9 from "./assets/slides/slide-9.jpg";
+import slide10 from "./assets/slides/slide-10.jpg";
+import slide11 from "./assets/slides/slide-11.jpg";
+import slide12 from "./assets/slides/slide-12.jpg";
+import slide13 from "./assets/slides/slide-13.jpg";
+import slide14 from "./assets/slides/slide-14.jpg";
+import slide15 from "./assets/slides/slide-15.jpg";
+
 // import viteLogo from '/vite.svg'
-import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <div className="layout px-[24px] w-full bg-stone-900">
-        <header className="App-header mx-auto flex flex-row h-min items-center justify-between py-4 max-w-screen-2xl">
+      <div className="layout w-full bg-stone-900">
+        <header className="App-header px-[32px] mx-auto flex flex-row h-min items-center justify-between py-4 max-w-[1600px]">
           <div className="header_menu-button w-10 mr-4 flex justify-center hover:bg-stone-600 hover:rounded h-10 cursor-pointer">
             <button className="">
               <img src={menuIcon} alt="menu" />
@@ -116,12 +145,12 @@ function App() {
           </div>
         </header>
       </div>
-      <div className="layout px-[24px] flex">
-        <aside className="sidebar border-r border-stone-200 w-[300px]">
+      <div className="layout px-[32px] flex mx-auto max-w-[1600px] overflow-hidden">
+        <aside className="sidebar border-r border-stone-200 w-[404px]">
           <ul className="sidebar_menu pt-5 pb-3">
             <li className="">
               <a className="flex px-3 h-8" href="#">
-                <img className="mr-2 h-6" src={laptop} alt="Laptops and PCs" />
+                <img className="mr-2 h-6 fill-blue-500" src={laptop} alt="Laptops and PCs" />
                 <span className="text-stone-700">Ноутбуки та комп'ютери</span>
               </a>
             </li>
@@ -327,96 +356,98 @@ function App() {
             </div>
           </div>
           <div className="px-6 py-4">
-          <div className="border-t py-4">
-            <h1 className="font-bold text-gray-500 px-2">Інформація про компанію</h1>
-            <ul className="mt-4 text-sm text-stone-700">
-              <li className="h-[32px] px-2 py-[2px] hover:underline">
-                <a href="#" className="hover:text-green-600">
-                  Про нас
-                </a>
-              </li>
-              <li className="h-[32px] px-2 py-[2px] hover:underline">
-                <a href="#" className="hover:text-green-600">
-                  Умови використання сайту
-                </a>
-              </li>
-              <li className="h-[32px] px-2 py-[2px] hover:underline">
-                <a href="#" className="hover:text-green-600">
-                  Контакти
-                </a>
-              </li>
-              <li className="h-[32px] px-2 py-[2px] hover:underline">
-                <a href="#" className="hover:text-green-600">
-                  Усі категорії
-                </a>
-              </li>
-              <li className="h-[32px] px-2 py-[2px] hover:underline">
-                <a href="#" className="hover:text-green-600">
-                  Карта сайту
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="border-t py-4">
-            <h1 className="font-bold text-gray-500 px-2">Допомога</h1>
-            <ul className="mt-4 text-sm text-stone-700">
-              <li className="h-[32px] px-2 py-[2px] hover:underline">
-                <a href="#" className="hover:text-green-600">
-                  Доставка та оплата
-                </a>
-              </li>
-              <li className="h-[32px] px-2 py-[2px] hover:underline">
-                <a href="#" className="hover:text-green-600">
-                  Кредит
-                </a>
-              </li>
-              <li className="h-[32px] px-2 py-[2px] hover:underline">
-                <a href="#" className="hover:text-green-600">
-                  Гарантія
-                </a>
-              </li>
-              <li className="h-[32px] px-2 py-[2px] hover:underline">
-                <a href="#" className="hover:text-green-600">
-                  Повернення товару
-                </a>
-              </li>
-              <li className="h-[32px] px-2 py-[2px] hover:underline">
-                <a href="#" className="hover:text-green-600">
-                  Сервісні центри
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="border-t border-b mb-1 py-4">
-            <h1 className="font-bold text-gray-500 px-2">Сервіси</h1>
-            <ul className="mt-4 text-sm text-stone-700">
-              <li className="h-[32px] px-2 py-[2px] hover:underline">
-                <a href="#" className="hover:text-green-600">
-                  Бонусний рахунок
-                </a>
-              </li>
-              <li className="h-[32px] px-2 py-[2px] hover:underline">
-                <a href="#" className="hover:text-green-600">
-                  Rozetka Premium
-                </a>
-              </li>
-              <li className="h-[32px] px-2 py-[2px] hover:underline">
-                <a href="#" className="hover:text-green-600">
-                  Подарункові сертифікати
-                </a>
-              </li>
-              <li className="h-[32px] px-2 py-[2px] hover:underline">
-                <a href="#" className="hover:text-green-600">
-                  Rozetka обмін
-                </a>
-              </li>
-              <li className="h-[32px] px-2 py-[2px] hover:underline">
-                <a href="#" className="hover:text-green-600">
-                  Тури та відпочинок
-                </a>
-              </li>
-            </ul>
-          </div>            
+            <div className="border-t py-4">
+              <h1 className="font-bold text-gray-500 px-2">
+                Інформація про компанію
+              </h1>
+              <ul className="mt-4 text-sm text-stone-700">
+                <li className="h-[32px] px-2 py-[2px] hover:underline">
+                  <a href="#" className="hover:text-green-600">
+                    Про нас
+                  </a>
+                </li>
+                <li className="h-[32px] px-2 py-[2px] hover:underline">
+                  <a href="#" className="hover:text-green-600">
+                    Умови використання сайту
+                  </a>
+                </li>
+                <li className="h-[32px] px-2 py-[2px] hover:underline">
+                  <a href="#" className="hover:text-green-600">
+                    Контакти
+                  </a>
+                </li>
+                <li className="h-[32px] px-2 py-[2px] hover:underline">
+                  <a href="#" className="hover:text-green-600">
+                    Усі категорії
+                  </a>
+                </li>
+                <li className="h-[32px] px-2 py-[2px] hover:underline">
+                  <a href="#" className="hover:text-green-600">
+                    Карта сайту
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="border-t py-4">
+              <h1 className="font-bold text-gray-500 px-2">Допомога</h1>
+              <ul className="mt-4 text-sm text-stone-700">
+                <li className="h-[32px] px-2 py-[2px] hover:underline">
+                  <a href="#" className="hover:text-green-600">
+                    Доставка та оплата
+                  </a>
+                </li>
+                <li className="h-[32px] px-2 py-[2px] hover:underline">
+                  <a href="#" className="hover:text-green-600">
+                    Кредит
+                  </a>
+                </li>
+                <li className="h-[32px] px-2 py-[2px] hover:underline">
+                  <a href="#" className="hover:text-green-600">
+                    Гарантія
+                  </a>
+                </li>
+                <li className="h-[32px] px-2 py-[2px] hover:underline">
+                  <a href="#" className="hover:text-green-600">
+                    Повернення товару
+                  </a>
+                </li>
+                <li className="h-[32px] px-2 py-[2px] hover:underline">
+                  <a href="#" className="hover:text-green-600">
+                    Сервісні центри
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="border-t border-b mb-1 py-4">
+              <h1 className="font-bold text-gray-500 px-2">Сервіси</h1>
+              <ul className="mt-4 text-sm text-stone-700">
+                <li className="h-[32px] px-2 py-[2px] hover:underline">
+                  <a href="#" className="hover:text-green-600">
+                    Бонусний рахунок
+                  </a>
+                </li>
+                <li className="h-[32px] px-2 py-[2px] hover:underline">
+                  <a href="#" className="hover:text-green-600">
+                    Rozetka Premium
+                  </a>
+                </li>
+                <li className="h-[32px] px-2 py-[2px] hover:underline">
+                  <a href="#" className="hover:text-green-600">
+                    Подарункові сертифікати
+                  </a>
+                </li>
+                <li className="h-[32px] px-2 py-[2px] hover:underline">
+                  <a href="#" className="hover:text-green-600">
+                    Rozetka обмін
+                  </a>
+                </li>
+                <li className="h-[32px] px-2 py-[2px] hover:underline">
+                  <a href="#" className="hover:text-green-600">
+                    Тури та відпочинок
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
 
           <div className="px-6 py-5 border-t">
@@ -428,11 +459,104 @@ function App() {
                 <img src={visa} alt="Visa" />
               </a>
             </div>
-            <p className="text-gray-500">ТМ використовується на підставі ліцензії правовласника RozetkaLTD</p>
-            <p className="text-gray-900">© 2001–2024 Інтернет-магазин «Розетка™» — Щоразу що треба</p>
+            <p className="text-gray-500">
+              ТМ використовується на підставі ліцензії правовласника RozetkaLTD
+            </p>
+            <p className="text-gray-900">
+              {/* <Logo fill="red" /> */}
+              © 2001–2024 Інтернет-магазин «Розетка™» — Щоразу що треба
+            </p>
           </div>
         </aside>
-        <main>main</main>
+        <main className="pt-10 pl-10 w-full overflow-x-hidden">
+          <Swiper
+            pagination={true}
+            navigation={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: true,
+            }}
+            modules={[Navigation, Pagination, Autoplay]}
+            // className="mySwiper"
+            className="mySwiper h-auto"
+          >
+            <SwiperSlide className="">
+              <a href="#">
+                <img src={slide1} alt="Slide 1" />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide className="">
+              <a href="#">
+                <img src={slide2} alt="Slide 2" />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide className="">
+              <a href="#">
+                <img src={slide3} alt="Slide 3" />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a href="#">
+                <img src={slide4} alt="Slide 4" />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a href="#">
+                <img src={slide5} alt="Slide 5" />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a href="#">
+                <img src={slide6} alt="Slide 6" />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a href="#">
+                <img src={slide7} alt="Slide 7" />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a href="#">
+                <img src={slide8} alt="Slide 8" />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a href="#">
+                <img src={slide9} alt="Slide 9" />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a href="#">
+                <img src={slide10} alt="Slide 10" />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a href="#">
+                <img src={slide11} alt="Slide 11" />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a href="#">
+                <img src={slide12} alt="Slide 12" />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a href="#">
+                <img src={slide13} alt="Slide 13" />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a href="#">
+                <img src={slide14} alt="Slide 14" />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a href="#">
+                <img src={slide15} alt="Slide 15" />
+              </a>
+            </SwiperSlide>
+          </Swiper>
+        </main>
       </div>
     </div>
   );
