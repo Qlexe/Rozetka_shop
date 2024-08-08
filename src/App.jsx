@@ -11,8 +11,6 @@ import "swiper/css/pagination";
 
 import "./App.css";
 
-
-
 import rozetkaLogo from "./assets/rozetka_logo.svg";
 // import rozetkaLogoFull from "./assets/rozetka_logo_full.svg";
 import catalogIcon from "./assets/catalog.svg";
@@ -75,7 +73,13 @@ import slide13 from "./assets/slides/slide-13.jpg";
 import slide14 from "./assets/slides/slide-14.jpg";
 import slide15 from "./assets/slides/slide-15.jpg";
 
-// import viteLogo from '/vite.svg'
+import product1 from "./assets/goods-pics/396528095.webp";
+import product3 from "./assets/goods-pics/412244496.webp";
+import product2 from "./assets/goods-pics/416152711.webp";
+import product4 from "./assets/goods-pics/438832176.webp";
+
+import heart from "./assets/heart.svg";
+
 
 function App() {
   return (
@@ -150,7 +154,11 @@ function App() {
           <ul className="sidebar_menu pt-5 pb-3">
             <li className="">
               <a className="flex px-3 h-8" href="#">
-                <img className="mr-2 h-6 fill-blue-500" src={laptop} alt="Laptops and PCs" />
+                <img
+                  className="mr-2 h-6 fill-blue-500"
+                  src={laptop}
+                  alt="Laptops and PCs"
+                />
                 <span className="text-stone-700">Ноутбуки та комп'ютери</span>
               </a>
             </li>
@@ -463,8 +471,8 @@ function App() {
               ТМ використовується на підставі ліцензії правовласника RozetkaLTD
             </p>
             <p className="text-gray-900">
-              {/* <Logo fill="red" /> */}
-              © 2001–2024 Інтернет-магазин «Розетка™» — Щоразу що треба
+              {/* <Logo fill="red" /> */}© 2001–2024 Інтернет-магазин «Розетка™»
+              — Щоразу що треба
             </p>
           </div>
         </aside>
@@ -556,6 +564,98 @@ function App() {
               </a>
             </SwiperSlide>
           </Swiper>
+          <ul className="flex w-full justify-end">
+            <li className="border-l border-r border-b px-12 h-10 flex items-center">
+              <a className="text-[#3e77aa] hover:text-red-500" href="#">
+                Всі акції
+                <span className="text-gray-400 ml-2">183</span>
+              </a>
+            </li>
+          </ul>
+          <section className="main-goods"> 
+            <h2 className="text-xl font-bold mb-4">Акційні пропозиції</h2>
+            <ul className="grid grid-cols-4">
+              <li className="relative flex h-[315px] flex-col justify-start border-b border-r p-4">
+                <a className="mb-4 flex h-[170px] w-full items-center self-center pt-4" href="#">
+                  <img
+                    className="mx-auto max-h-[140px] max-w-[140px]"
+                    src={product1}
+                    alt="Product 1"
+                  />
+                </a>
+                <a className="absolute right-4 top-4 w-8 h-8 p-1 hover:rounded hover:bg-slate-100" href="">
+                  <img src={heart} alt="Like it" />
+                </a>
+                <a className="mb-2 hover:text-red-500" href="">Віскі Jameson Irish Whiskey 1 л 40%</a>
+                <span className="text-sm text-gray-400 line-through">
+                  9 999
+                  <span className="ml-1 no-underline">₴</span>
+                </span>
+                <span className="text-2xl text-red-500">8 999</span>
+              </li>
+              <li className="relative flex h-[315px] flex-col justify-start border-b border-r p-4">
+                <a className="mb-4 flex h-[170px] w-full items-center self-center pt-4" href="#">
+                  <img
+                    className="mx-auto max-h-[140px] max-w-[140px] self-center"
+                    src={product2}
+                    alt="Product 1"
+                  />
+                </a>
+                <a className="absolute right-4 top-4 w-8 h-8 p-1 hover:rounded hover:bg-slate-100" href="">
+                  <img src={heart} alt="Like it" />
+                </a>
+                <a className="mb-2 hover:text-red-500 hover:underline" href="">Віскі Jameson Irish Whiskey 1 л 40%</a>
+                <span className="text-sm text-gray-400 line-through">
+                  9 999
+                  <span className="ml-1 no-underline">₴</span>
+                </span>
+                <span className="text-2xl text-red-500">8 999</span>
+              </li>
+              <li className="relative flex h-[315px] flex-col justify-start border-b border-r p-4">
+                <a className="mb-4 flex h-[170px] w-full items-center self-center pt-4" href="#">
+                  <img
+                    className="mx-auto max-h-[140px] max-w-[140px]"
+                    src={product3}
+                    alt="Product 1"
+                  />
+                </a>
+                <a className="absolute right-4 top-4 w-8 h-8 p-1 hover:rounded hover:bg-slate-100" href="">
+                  <img src={heart} alt="Like it" />
+                </a>
+                <a className="mb-2 hover:text-red-500 hover:underline" href="">Віскі Jameson Irish Whiskey 1 л 40%</a>
+                <span className="text-sm text-gray-400 line-through">
+                  9 999
+                  <span className="ml-1 no-underline">₴</span>
+                </span>
+                <span className="text-2xl text-red-500">8 999</span>
+              </li>
+              <li className="relative flex h-[315px] flex-col justify-start border-b border-r p-4">
+                <a className="mb-4 flex h-[170px] w-full items-center self-center pt-4" href="#">
+                  <img
+                    className="mx-auto max-h-[140px] max-w-[140px]"
+                    src={product4}
+                    alt="Product 1"
+                  />
+                </a>
+                <a className="absolute right-4 top-4 w-8 h-8 p-1 hover:rounded hover:bg-slate-100" href="">
+                  <img src={heart} alt="Like it" />
+                </a>
+                <a className="mb-2 hover:text-red-500 hover:underline" href="">Віскі Jameson Irish Whiskey 1 л 40%</a>
+                <span className="text-sm text-gray-400 line-through">
+                  9 999
+                  <span className="ml-1 no-underline">₴</span>
+                </span>
+                <span className="text-2xl text-red-500">8 999</span>
+              </li>
+            </ul>
+            <ul className="flex w-full justify-end">
+            <li className="border-l border-r border-b px-12 w-[25%] h-10 flex items-center">
+              <a className="text-[#3e77aa] hover:text-red-500" href="#">
+                Показати ще +
+              </a>
+            </li>
+          </ul>
+          </section>
         </main>
       </div>
     </div>
