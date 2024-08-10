@@ -1,0 +1,1264 @@
+[
+  {
+    "id": 1,
+    "name": "Ноутбук Lenovo IdeaPad 3",
+    "description": "Потужний ноутбук для роботи та навчання з процесором Intel Core i5 та 8GB RAM.",
+    "price": 15999.99,
+    "category": "Ноутбуки та комп'ютери",
+    "subcategory": "Ноутбуки",
+    "images": [
+      "./assets/goods/lenovo_ideapad3_1.jpg",
+      "./assets/goods/lenovo_ideapad3_2.jpg"
+    ],
+    "stock": 50,
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "Монітор Samsung Odyssey G5",
+    "description": "Ігровий монітор з частотою оновлення 144 Гц та вигнутим екраном.",
+    "price": 8999.99,
+    "category": "Ноутбуки та комп'ютери",
+    "subcategory": "Монітори",
+    "images": [
+      "./assets/goods/samsung_odyssey_g5_1.jpg",
+      "./assets/goods/samsung_odyssey_g5_2.jpg"
+    ],
+    "stock": 30,
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "name": "Процесор AMD Ryzen 7 5800X",
+    "description": "Потужний процесор для геймінгу та професійних завдань.",
+    "price": 12499.99,
+    "category": "Ноутбуки та комп'ютери",
+    "subcategory": "Комплектуючі",
+    "images": [
+      "./assets/goods/amd_ryzen7_5800x_1.jpg",
+      "./assets/goods/amd_ryzen7_5800x_2.jpg"
+    ],
+    "stock": 25,
+    "rating": 4.9
+  },
+  {
+    "id": 4,
+    "name": "SSD Kingston A2000 500GB",
+    "description": "Швидкий та надійний SSD для покращення продуктивності вашого комп'ютера.",
+    "price": 1799.99,
+    "category": "Ноутбуки та комп'ютери",
+    "subcategory": "Комплектуючі",
+    "images": [
+      "./assets/goods/kingston_a2000_1.jpg",
+      "./assets/goods/kingston_a2000_2.jpg"
+    ],
+    "stock": 100,
+    "rating": 4.7
+  },
+  {
+    "id": 5,
+    "name": "Графічна карта NVIDIA GeForce RTX 3070",
+    "description": "Потужна відеокарта для геймінгу та роботи з графікою.",
+    "price": 24999.99,
+    "category": "Ноутбуки та комп'ютери",
+    "subcategory": "Комплектуючі",
+    "images": [
+      "./assets/goods/nvidia_rtx3070_1.jpg",
+      "./assets/goods/nvidia_rtx3070_2.jpg"
+    ],
+    "stock": 15,
+    "rating": 4.9
+  },
+  {
+    "id": 6,
+    "name": "Смартфон Apple iPhone 13",
+    "description": "Флагманський смартфон з потужним процесором A15 Bionic та відмінною камерою.",
+    "price": 29999.99,
+    "category": "Смартфони, ТВ і електроніка",
+    "subcategory": "Смартфони",
+    "images": [
+      "./assets/goods/iphone13_1.jpg",
+      "./assets/goods/iphone13_2.jpg"
+    ],
+    "stock": 50,
+    "rating": 4.8
+  },
+  {
+    "id": 7,
+    "name": "Телевізор LG OLED C1",
+    "description": "4K OLED телевізор з підтримкою HDR та технологією AI ThinQ.",
+    "price": 49999.99,
+    "category": "Смартфони, ТВ і електроніка",
+    "subcategory": "Телевізори",
+    "images": [
+      "./assets/goods/lg_oled_c1_1.jpg",
+      "./assets/goods/lg_oled_c1_2.jpg"
+    ],
+    "stock": 20,
+    "rating": 4.9
+  },
+  {
+    "id": 8,
+    "name": "Навушники Sony WH-1000XM4",
+    "description": "Бездротові навушники з активним шумопоглинанням та високою якістю звуку.",
+    "price": 9999.99,
+    "category": "Смартфони, ТВ і електроніка",
+    "subcategory": "Аудіотехніка",
+    "images": [
+      "./assets/goods/sony_wh1000xm4_1.jpg",
+      "./assets/goods/sony_wh1000xm4_2.jpg"
+    ],
+    "stock": 40,
+    "rating": 4.8
+  },
+  {
+    "id": 9,
+    "name": "Ігрова консоль PlayStation 5",
+    "description": "Потужна ігрова консоль нового покоління з підтримкою 4K та ray tracing.",
+    "price": 19999.99,
+    "category": "Товари для геймерів",
+    "subcategory": "Ігрові консолі",
+    "images": [
+      "./assets/goods/ps5_1.jpg",
+      "./assets/goods/ps5_2.jpg"
+    ],
+    "stock": 10,
+    "rating": 4.9
+  },
+  {
+    "id": 10,
+    "name": "Ігрова миша Razer DeathAdder V2",
+    "description": "Високоточна ігрова миша з оптичним сенсором 20000 DPI.",
+    "price": 1999.99,
+    "category": "Товари для геймерів",
+    "subcategory": "Ігрові аксесуари",
+    "images": [
+      "./assets/goods/razer_deathadder_v2_1.jpg",
+      "./assets/goods/razer_deathadder_v2_2.jpg"
+    ],
+    "stock": 60,
+    "rating": 4.7
+  },
+  {
+    "id": 11,
+    "name": "Холодильник Samsung RF50",
+    "description": "Двокамерний холодильник з системою No Frost та великим об'ємом.",
+    "price": 29999.99,
+    "category": "Побутова техніка",
+    "subcategory": "Холодильники",
+    "images": [
+      "./assets/goods/samsung_rf50_1.jpg",
+      "./assets/goods/samsung_rf50_2.jpg"
+    ],
+    "stock": 15,
+    "rating": 4.6
+  },
+  {
+    "id": 12,
+    "name": "Пральна машина Bosch WAV28L90",
+    "description": "Енергоефективна пральна машина з функцією парової обробки.",
+    "price": 19999.99,
+    "category": "Побутова техніка",
+    "subcategory": "Пральні машини",
+    "images": [
+      "./assets/goods/bosch_wav28l90_1.jpg",
+      "./assets/goods/bosch_wav28l90_2.jpg"
+    ],
+    "stock": 20,
+    "rating": 4.8
+  },
+  {
+    "id": 13,
+    "name": "Диван 'Комфорт'",
+    "description": "Зручний розкладний диван з м'якою оббивкою та додатковим спальним місцем.",
+    "price": 15999.99,
+    "category": "Товари для дому",
+    "subcategory": "Меблі",
+    "images": [
+      "./assets/goods/sofa_comfort_1.jpg",
+      "./assets/goods/sofa_comfort_2.jpg"
+    ],
+    "stock": 10,
+    "rating": 4.5
+  },
+  {
+    "id": 14,
+    "name": "Набір посуду Tefal Ingenio",
+    "description": "Набір з 10 предметів з антипригарним покриттям та знімними ручками.",
+    "price": 3999.99,
+    "category": "Товари для дому",
+    "subcategory": "Посуд",
+    "images": [
+      "./assets/goods/tefal_ingenio_1.jpg",
+      "./assets/goods/tefal_ingenio_2.jpg"
+    ],
+    "stock": 30,
+    "rating": 4.7
+  },
+  {
+    "id": 15,
+    "name": "Перфоратор Bosch GBH 2-26 DRE",
+    "description": "Потужний перфоратор для професійного використання з функцією долбления.",
+    "price": 4999.99,
+    "category": "Інструменти та автотовари",
+    "subcategory": "Електроінструменти",
+    "images": [
+      "./assets/goods/bosch_gbh226dre_1.jpg",
+      "./assets/goods/bosch_gbh226dre_2.jpg"
+    ],
+    "stock": 25,
+    "rating": 4.8
+  },
+  {
+    "id": 16,
+    "name": "Автомобільний компресор Ring RAC635",
+    "description": "Компактний автомобільний компресор для накачування шин.",
+    "price": 999.99,
+    "category": "Інструменти та автотовари",
+    "subcategory": "Автоаксесуари",
+    "images": [
+      "./assets/goods/ring_rac635_1.jpg",
+      "./assets/goods/ring_rac635_2.jpg"
+    ],
+    "stock": 50,
+    "rating": 4.6
+  },
+  {
+    "id": 17,
+    "name": "Змішувач для ванни Grohe Eurosmart",
+    "description": "Надійний змішувач з хромованим покриттям та керамічним картриджем.",
+    "price": 2499.99,
+    "category": "Сантехніка та ремонт",
+    "subcategory": "Змішувачі",
+    "images": [
+      "./assets/goods/grohe_eurosmart_1.jpg",
+      "./assets/goods/grohe_eurosmart_2.jpg"
+    ],
+    "stock": 40,
+    "rating": 4.7
+  },
+  {
+    "id": 18,
+    "name": "Шпалери флізелінові AS Creation Metropolitan Stories",
+    "description": "Стильні шпалери з геометричним візерунком для сучасного інтер'єру.",
+    "price": 799.99,
+    "category": "Сантехніка та ремонт",
+    "subcategory": "Оздоблювальні матеріали",
+    "images": [
+      "./assets/goods/as_creation_wallpaper_1.jpg",
+      "./assets/goods/as_creation_wallpaper_2.jpg"
+    ],
+    "stock": 100,
+    "rating": 4.5
+  },
+  {
+    "id": 19,
+    "name": "Газонокосарка Bosch Rotak 32",
+    "description": "Електрична газонокосарка з шириною скошування 32 см для невеликих газонів.",
+    "price": 3999.99,
+    "category": "Дача, сад і город",
+    "subcategory": "Садова техніка",
+    "images": [
+      "./assets/goods/bosch_rotak32_1.jpg",
+      "./assets/goods/bosch_rotak32_2.jpg"
+    ],
+    "stock": 30,
+    "rating": 4.6
+  },
+  {
+    "id": 20,
+    "name": "Набір садових інструментів Fiskars",
+    "description": "Комплект з 3 садових інструментів з ергономічними ручками.",
+    "price": 999.99,
+    "category": "Дача, сад і город",
+    "subcategory": "Садовий інвентар",
+    "images": [
+      "./assets/goods/fiskars_garden_set_1.jpg",
+      "./assets/goods/fiskars_garden_set_2.jpg"
+    ],
+    "stock": 50,
+    "rating": 4.8
+  },
+  {
+    "id": 21,
+    "name": "Велосипед Merida Big.Nine 100",
+    "description": "Гірський велосипед з алюмінієвою рамою та дисковими гальмами.",
+    "price": 15999.99,
+    "category": "Спорт і захоплення",
+    "subcategory": "Велосипеди",
+    "images": [
+      "./assets/goods/merida_big_nine_100_1.jpg",
+      "./assets/goods/merida_big_nine_100_2.jpg"
+    ],
+    "stock": 15,
+    "rating": 4.7
+  },
+  {
+    "id": 22,
+    "name": "Тренажер еліптичний Hammer Cardio T5",
+    "description": "Магнітний еліптичний тренажер з 8 рівнями навантаження.",
+    "price": 9999.99,
+    "category": "Спорт і захоплення",
+    "subcategory": "Тренажери",
+    "images": [
+      "./assets/goods/hammer_cardio_t5_1.jpg",
+      "./assets/goods/hammer_cardio_t5_2.jpg"
+    ],
+    "stock": 10,
+    "rating": 4.6
+  }
+  ,
+  {
+    "id": 23,
+    "name": "Чоловіча куртка Columbia Watertight II",
+    "description": "Водонепроникна куртка з технологією Omni-Tech для захисту від дощу.",
+    "price": 2999.99,
+    "category": "Одяг, взуття та прикраси",
+    "subcategory": "Верхній одяг",
+    "images": [
+      "./assets/goods/columbia_watertight_ii_1.jpg",
+      "./assets/goods/columbia_watertight_ii_2.jpg"
+    ],
+    "stock": 40,
+    "rating": 4.7
+  },
+  {
+    "id": 24,
+    "name": "Жіночі кросівки Nike Air Zoom Pegasus 38",
+    "description": "Легкі бігові кросівки з амортизацією Nike Air Zoom.",
+    "price": 3499.99,
+    "category": "Одяг, взуття та прикраси",
+    "subcategory": "Взуття",
+    "images": [
+      "./assets/goods/nike_air_zoom_pegasus_38_1.jpg",
+      "./assets/goods/nike_air_zoom_pegasus_38_2.jpg"
+    ],
+    "stock": 25,
+    "rating": 4.8
+  },
+  {
+    "id": 25,
+    "name": "Сукня вечірня ASOS DESIGN",
+    "description": "Елегантна вечірня сукня з мереживом та відкритою спиною.",
+    "price": 1999.99,
+    "category": "Одяг, взуття та прикраси",
+    "subcategory": "Сукні",
+    "images": [
+      "./assets/goods/asos_design_evening_dress_1.jpg",
+      "./assets/goods/asos_design_evening_dress_2.jpg"
+    ],
+    "stock": 15,
+    "rating": 4.6
+  },
+  {
+    "id": 26,
+    "name": "Чоловічий годинник Casio G-Shock GA-2100",
+    "description": "Ударостійкий цифровий годинник з аналоговим дисплеєм.",
+    "price": 3999.99,
+    "category": "Одяг, взуття та прикраси",
+    "subcategory": "Годинники",
+    "images": [
+      "./assets/goods/casio_g_shock_ga_2100_1.jpg",
+      "./assets/goods/casio_g_shock_ga_2100_2.jpg"
+    ],
+    "stock": 20,
+    "rating": 4.9
+  },
+  {
+    "id": 27,
+    "name": "Жіноча сумка Michael Kors Jet Set",
+    "description": "Елегантна шкіряна сумка з фірмовим логотипом та золотистою фурнітурою.",
+    "price": 7999.99,
+    "category": "Одяг, взуття та прикраси",
+    "subcategory": "Сумки",
+    "images": [
+      "./assets/goods/michael_kors_jet_set_1.jpg",
+      "./assets/goods/michael_kors_jet_set_2.jpg"
+    ],
+    "stock": 10,
+    "rating": 4.7
+  },
+  {
+    "id": 28,
+    "name": "Чоловічий костюм Hugo Boss",
+    "description": "Класичний діловий костюм з вовни, приталеного крою.",
+    "price": 15999.99,
+    "category": "Одяг, взуття та прикраси",
+    "subcategory": "Костюми",
+    "images": [
+      "./assets/goods/hugo_boss_suit_1.jpg",
+      "./assets/goods/hugo_boss_suit_2.jpg"
+    ],
+    "stock": 8,
+    "rating": 4.8
+  },
+  {
+    "id": 29,
+    "name": "Жіночі сонцезахисні окуляри Ray-Ban Aviator",
+    "description": "Класичні сонцезахисні окуляри з металевою оправою та поляризованими лінзами.",
+    "price": 3499.99,
+    "category": "Одяг, взуття та прикраси",
+    "subcategory": "Аксесуари",
+    "images": [
+      "./assets/goods/ray_ban_aviator_1.jpg",
+      "./assets/goods/ray_ban_aviator_2.jpg"
+    ],
+    "stock": 30,
+    "rating": 4.9
+  },
+  {
+    "id": 30,
+    "name": "Чоловіча сорочка Tommy Hilfiger",
+    "description": "Класична біла сорочка з довгим рукавом та логотипом бренду.",
+    "price": 1999.99,
+    "category": "Одяг, взуття та прикраси",
+    "subcategory": "Сорочки",
+    "images": [
+      "./assets/goods/tommy_hilfiger_shirt_1.jpg",
+      "./assets/goods/tommy_hilfiger_shirt_2.jpg"
+    ],
+    "stock": 50,
+    "rating": 4.6
+  },
+  {
+    "id": 31,
+    "name": "Жіночі джинси Levi's 501",
+    "description": "Класичні джинси прямого крою з високою посадкою.",
+    "price": 2499.99,
+    "category": "Одяг, взуття та прикраси",
+    "subcategory": "Джинси",
+    "images": [
+      "./assets/goods/levis_501_1.jpg",
+      "./assets/goods/levis_501_2.jpg"
+    ],
+    "stock": 35,
+    "rating": 4.7
+  },
+  {
+    "id": 32,
+    "name": "Чоловічі черевики Timberland Premium",
+    "description": "Водонепроникні шкіряні черевики з міцною підошвою.",
+    "price": 4999.99,
+    "category": "Одяг, взуття та прикраси",
+    "subcategory": "Взуття",
+    "images": [
+      "./assets/goods/timberland_premium_1.jpg",
+      "./assets/goods/timberland_premium_2.jpg"
+    ],
+    "stock": 20,
+    "rating": 4.8
+  },
+  {
+    "id": 33,
+    "name": "Жіночий светр Zara",
+    "description": "Теплий в'язаний светр оверсайз з високим коміром.",
+    "price": 1299.99,
+    "category": "Одяг, взуття та прикраси",
+    "subcategory": "Светри",
+    "images": [
+      "./assets/goods/zara_sweater_1.jpg",
+      "./assets/goods/zara_sweater_2.jpg"
+    ],
+    "stock": 40,
+    "rating": 4.5
+  },
+  {
+    "id": 34,
+    "name": "Чоловічий ремінь Gucci",
+    "description": "Шкіряний ремінь з фірмовою пряжкою GG.",
+    "price": 5999.99,
+    "category": "Одяг, взуття та прикраси",
+    "subcategory": "Аксесуари",
+    "images": [
+      "./assets/goods/gucci_belt_1.jpg",
+      "./assets/goods/gucci_belt_2.jpg"
+    ],
+    "stock": 15,
+    "rating": 4.9
+  },
+  {
+    "id": 35,
+    "name": "Жіноча шапка The North Face",
+    "description": "Тепла в'язана шапка з флісовою підкладкою.",
+    "price": 799.99,
+    "category": "Одяг, взуття та прикраси",
+    "subcategory": "Головні убори",
+    "images": [
+      "./assets/goods/north_face_beanie_1.jpg",
+      "./assets/goods/north_face_beanie_2.jpg"
+    ],
+    "stock": 60,
+    "rating": 4.6
+  },
+  {
+    "id": 36,
+    "name": "Чоловічий пуховик Patagonia",
+    "description": "Легкий пуховик з водовідштовхувальним покриттям.",
+    "price": 6999.99,
+    "category": "Одяг, взуття та прикраси",
+    "subcategory": "Верхній одяг",
+    "images": [
+      "./assets/goods/patagonia_down_jacket_1.jpg",
+      "./assets/goods/patagonia_down_jacket_2.jpg"
+    ],
+    "stock": 25,
+    "rating": 4.8
+  },
+  {
+    "id": 37,
+    "name": "Жіночі балетки Clarks",
+    "description": "Комфортні шкіряні балетки на кожен день.",
+    "price": 1799.99,
+    "category": "Одяг, взуття та прикраси",
+    "subcategory": "Взуття",
+    "images": [
+      "./assets/goods/clarks_ballet_flats_1.jpg",
+      "./assets/goods/clarks_ballet_flats_2.jpg"
+    ],
+    "stock": 45,
+    "rating": 4.7
+  },
+  {
+    "id": 38,
+    "name": "Чоловічий гаманець Fossil",
+    "description": "Шкіряний гаманець з відділенням для монет та карток.",
+    "price": 1299.99,
+    "category": "Одяг, взуття та прикраси",
+    "subcategory": "Аксесуари",
+    "images": [
+      "./assets/goods/fossil_wallet_1.jpg",
+      "./assets/goods/fossil_wallet_2.jpg"
+    ],
+    "stock": 55,
+    "rating": 4.6
+  },
+  {
+    "id": 39,
+    "name": "Жіноча блузка H&M",
+    "description": "Елегантна блузка з шифону з довгим рукавом.",
+    "price": 899.99,
+    "category": "Одяг, взуття та прикраси",
+    "subcategory": "Блузки",
+    "images": [
+      "./assets/goods/hm_blouse_1.jpg",
+      "./assets/goods/hm_blouse_2.jpg"
+    ],
+    "stock": 70,
+    "rating": 4.5
+  },
+  {
+    "id": 42,
+    "name": "Зволожуючий крем для обличчя",
+    "description": "Легкий зволожуючий крем для щоденного догляду за шкірою обличчя.",
+    "price": 299.99,
+    "category": "Краса та здоров'я",
+    "subcategory": "Догляд за обличчям",
+    "images": [
+      "./assets/goods/moisturizing_cream_1.jpg",
+      "./assets/goods/moisturizing_cream_2.jpg"
+    ],
+    "stock": 100,
+    "rating": 4.7
+  },
+  {
+    "id": 43,
+    "name": "Електрична зубна щітка Oral-B",
+    "description": "Потужна електрична зубна щітка для ефективного чищення зубів.",
+    "price": 1299.99,
+    "category": "Краса та здоров'я",
+    "subcategory": "Гігієна порожнини рота",
+    "images": [
+      "./assets/goods/oralb_toothbrush_1.jpg",
+      "./assets/goods/oralb_toothbrush_2.jpg"
+    ],
+    "stock": 50,
+    "rating": 4.8
+  },
+  {
+    "id": 44,
+    "name": "Фен для волосся Dyson",
+    "description": "Професійний фен для швидкого та дбайливого сушіння волосся.",
+    "price": 14999.99,
+    "category": "Краса та здоров'я",
+    "subcategory": "Догляд за волоссям",
+    "images": [
+      "./assets/goods/dyson_hairdryer_1.jpg",
+      "./assets/goods/dyson_hairdryer_2.jpg"
+    ],
+    "stock": 20,
+    "rating": 4.9
+  },
+  {
+    "id": 45,
+    "name": "Масажер для тіла",
+    "description": "Портативний масажер для зняття напруги в м'язах.",
+    "price": 799.99,
+    "category": "Краса та здоров'я",
+    "subcategory": "Масажери",
+    "images": [
+      "./assets/goods/body_massager_1.jpg",
+      "./assets/goods/body_massager_2.jpg"
+    ],
+    "stock": 40,
+    "rating": 4.6
+  },
+  {
+    "id": 46,
+    "name": "Набір для манікюру",
+    "description": "Професійний набір інструментів для догляду за нігтями.",
+    "price": 599.99,
+    "category": "Краса та здоров'я",
+    "subcategory": "Манікюр та педикюр",
+    "images": [
+      "./assets/goods/manicure_set_1.jpg",
+      "./assets/goods/manicure_set_2.jpg"
+    ],
+    "stock": 60,
+    "rating": 4.5
+  },
+  {
+    "id": 47,
+    "name": "Ваги електронні",
+    "description": "Точні електронні ваги для контролю ваги тіла.",
+    "price": 499.99,
+    "category": "Краса та здоров'я",
+    "subcategory": "Ваги",
+    "images": [
+      "./assets/goods/electronic_scale_1.jpg",
+      "./assets/goods/electronic_scale_2.jpg"
+    ],
+    "stock": 80,
+    "rating": 4.7
+  },
+  {
+    "id": 48,
+    "name": "Тонометр автоматичний",
+    "description": "Автоматичний тонометр для вимірювання артеріального тиску.",
+    "price": 999.99,
+    "category": "Краса та здоров'я",
+    "subcategory": "Медичні прилади",
+    "images": [
+      "./assets/goods/blood_pressure_monitor_1.jpg",
+      "./assets/goods/blood_pressure_monitor_2.jpg"
+    ],
+    "stock": 30,
+    "rating": 4.8
+  },
+  {
+    "id": 49,
+    "name": "Парфуми Chanel",
+    "description": "Елегантний жіночий аромат від відомого бренду.",
+    "price": 3999.99,
+    "category": "Краса та здоров'я",
+    "subcategory": "Парфумерія",
+    "images": [
+      "./assets/goods/chanel_perfume_1.jpg",
+      "./assets/goods/chanel_perfume_2.jpg"
+    ],
+    "stock": 25,
+    "rating": 4.9
+  },
+  {
+    "id": 50,
+    "name": "Набір косметики для макіяжу",
+    "description": "Повний набір декоративної косметики для створення макіяжу.",
+    "price": 1499.99,
+    "category": "Краса та здоров'я",
+    "subcategory": "Макіяж",
+    "images": [
+      "./assets/goods/makeup_set_1.jpg",
+      "./assets/goods/makeup_set_2.jpg"
+    ],
+    "stock": 35,
+    "rating": 4.6
+  },
+  {
+    "id": 51,
+    "name": "Сонцезахисний крем",
+    "description": "Крем з високим ступенем захисту від сонячних променів.",
+    "price": 399.99,
+    "category": "Краса та здоров'я",
+    "subcategory": "Сонцезахисні засоби",
+    "images": [
+      "./assets/goods/sunscreen_1.jpg",
+      "./assets/goods/sunscreen_2.jpg"
+    ],
+    "stock": 70,
+    "rating": 4.7
+  },
+  {
+    "id": 52,
+    "name": "Дитячий візок",
+    "description": "Зручний та легкий дитячий візок для прогулянок.",
+    "price": 4999.99,
+    "category": "Дитячі товари",
+    "subcategory": "Дитячі візки",
+    "images": [
+      "./assets/goods/baby_stroller_1.jpg",
+      "./assets/goods/baby_stroller_2.jpg"
+    ],
+    "stock": 15,
+    "rating": 4.8
+  },
+  {
+    "id": 53,
+    "name": "Дитяче автокрісло",
+    "description": "Безпечне автокрісло для дітей різного віку.",
+    "price": 3499.99,
+    "category": "Дитячі товари",
+    "subcategory": "Автокрісла",
+    "images": [
+      "./assets/goods/car_seat_1.jpg",
+      "./assets/goods/car_seat_2.jpg"
+    ],
+    "stock": 25,
+    "rating": 4.9
+  },
+  {
+    "id": 54,
+    "name": "Набір дитячого одягу",
+    "description": "Комплект одягу для немовлят з 5 предметів.",
+    "price": 799.99,
+    "category": "Дитячі товари",
+    "subcategory": "Дитячий одяг",
+    "images": [
+      "./assets/goods/baby_clothes_set_1.jpg",
+      "./assets/goods/baby_clothes_set_2.jpg"
+    ],
+    "stock": 50,
+    "rating": 4.7
+  },
+  {
+    "id": 55,
+    "name": "Дитяча коляска 3 в 1",
+    "description": "Багатофункціональна коляска для новонароджених та дітей до 3 років.",
+    "price": 12999.99,
+    "category": "Дитячі товари",
+    "subcategory": "Дитячі коляски",
+    "images": [
+      "./assets/goods/stroller_3in1_1.jpg",
+      "./assets/goods/stroller_3in1_2.jpg"
+    ],
+    "stock": 10,
+    "rating": 4.9
+  },
+  {
+    "id": 56,
+    "name": "Дитяче ліжечко",
+    "description": "Дерев'яне ліжечко для немовлят з регульованою висотою дна.",
+    "price": 2999.99,
+    "category": "Дитячі товари",
+    "subcategory": "Дитячі меблі",
+    "images": [
+      "./assets/goods/baby_crib_1.jpg",
+      "./assets/goods/baby_crib_2.jpg"
+    ],
+    "stock": 20,
+    "rating": 4.8
+  },
+  {
+    "id": 57,
+    "name": "Набір для годування немовлят",
+    "description": "Комплект посуду та аксесуарів для годування малюків.",
+    "price": 599.99,
+    "category": "Дитячі товари",
+    "subcategory": "Товари для годування",
+    "images": [
+      "./assets/goods/feeding_set_1.jpg",
+      "./assets/goods/feeding_set_2.jpg"
+    ],
+    "stock": 40,
+    "rating": 4.6
+  },
+  {
+    "id": 58,
+    "name": "Дитячий велосипед",
+    "description": "Яскравий велосипед для дітей від 3 до 6 років.",
+    "price": 1999.99,
+    "category": "Дитячі товари",
+    "subcategory": "Дитячий транспорт",
+    "images": [
+      "./assets/goods/kids_bike_1.jpg",
+      "./assets/goods/kids_bike_2.jpg"
+    ],
+    "stock": 30,
+    "rating": 4.7
+  },
+  {
+    "id": 59,
+    "name": "Розвиваючий килимок",
+    "description": "М'який килимок з іграшками для розвитку малюків.",
+    "price": 899.99,
+    "category": "Дитячі товари",
+    "subcategory": "Розвиваючі іграшки",
+    "images": [
+      "./assets/goods/play_mat_1.jpg",
+      "./assets/goods/play_mat_2.jpg"
+    ],
+    "stock": 45,
+    "rating": 4.8
+  },
+  {
+    "id": 60,
+    "name": "Підгузки Pampers",
+    "description": "Упаковка підгузків для немовлят вагою від 4 до 9 кг.",
+    "price": 499.99,
+    "category": "Дитячі товари",
+    "subcategory": "Підгузки та гігієна",
+    "images": [
+      "./assets/goods/pampers_1.jpg",
+      "./assets/goods/pampers_2.jpg"
+    ],
+    "stock": 100,
+    "rating": 4.9
+  },
+  {
+    "id": 61,
+    "name": "Дитяча коляска-тростина",
+    "description": "Легка та компактна коляска для подорожей з дитиною.",
+    "price": 1799.99,
+    "category": "Дитячі товари",
+    "subcategory": "Дитячі коляски",
+    "images": [
+      "./assets/goods/umbrella_stroller_1.jpg",
+      "./assets/goods/umbrella_stroller_2.jpg"
+    ],
+    "stock": 35,
+    "rating": 4.7
+  },
+  {
+    "id": 62,
+    "name": "Сухий корм для собак",
+    "description": "Збалансований сухий корм для дорослих собак всіх порід.",
+    "price": 799.99,
+    "category": "Зоотовари",
+    "subcategory": "Корм для собак",
+    "images": [
+      "./assets/goods/dog_food_1.jpg",
+      "./assets/goods/dog_food_2.jpg"
+    ],
+    "stock": 50,
+    "rating": 4.8
+  },
+  {
+    "id": 63,
+    "name": "Котячий будиночок",
+    "description": "Затишний будиночок для відпочинку та ігор котів.",
+    "price": 999.99,
+    "category": "Зоотовари",
+    "subcategory": "Товари для котів",
+    "images": [
+      "./assets/goods/cat_house_1.jpg",
+      "./assets/goods/cat_house_2.jpg"
+    ],
+    "stock": 30,
+    "rating": 4.7
+  },
+  {
+    "id": 64,
+    "name": "Акваріум комплект",
+    "description": "Повний комплект акваріума з фільтром та освітленням.",
+    "price": 2999.99,
+    "category": "Зоотовари",
+    "subcategory": "Акваріумістика",
+    "images": [
+      "./assets/goods/aquarium_set_1.jpg",
+      "./assets/goods/aquarium_set_2.jpg"
+    ],
+    "stock": 15,
+    "rating": 4.9
+  },
+  {
+    "id": 65,
+    "name": "Поводок для собак",
+    "description": "Міцний нейлоновий поводок для середніх та великих порід собак.",
+    "price": 299.99,
+    "category": "Зоотовари",
+    "subcategory": "Аксесуари для собак",
+    "images": [
+      "./assets/goods/dog_leash_1.jpg",
+      "./assets/goods/dog_leash_2.jpg"
+    ],
+    "stock": 60,
+    "rating": 4.6
+
+  },
+  {
+    "id": 66,
+    "name": "Офісний стілець",
+    "description": "Ергономічний офісний стілець з регульованою висотою.",
+    "price": 1999.99,
+    "category": "Офіс, школа, книги",
+    "subcategory": "Офісні меблі",
+    "images": [
+      "./assets/goods/office_chair_1.jpg",
+      "./assets/goods/office_chair_2.jpg"
+    ],
+    "stock": 40,
+    "rating": 4.5
+  },
+  {
+    "id": 67,
+    "name": "Канцелярський набір",
+    "description": "Комплект канцелярських товарів для офісу та школи.",
+    "price": 399.99,
+    "category": "Офіс, школа, книги",
+    "subcategory": "Канцтовари",
+    "images": [
+      "./assets/goods/stationery_set_1.jpg",
+      "./assets/goods/stationery_set_2.jpg"
+    ],
+    "stock": 100,
+    "rating": 4.7
+  },
+  {
+    "id": 68,
+    "name": "Шкільний рюкзак",
+    "description": "Зручний та місткий рюкзак для школярів.",
+    "price": 799.99,
+    "category": "Офіс, школа, книги",
+    "subcategory": "Шкільні товари",
+    "images": [
+      "./assets/goods/school_backpack_1.jpg",
+      "./assets/goods/school_backpack_2.jpg"
+    ],
+    "stock": 80,
+    "rating": 4.8
+  },
+  {
+    "id": 69,
+    "name": "Настільна лампа",
+    "description": "Сучасна настільна лампа з регульованим освітленням.",
+    "price": 599.99,
+    "category": "Офіс, школа, книги",
+    "subcategory": "Освітлення",
+    "images": [
+      "./assets/goods/desk_lamp_1.jpg",
+      "./assets/goods/desk_lamp_2.jpg"
+    ],
+    "stock": 50,
+    "rating": 4.6
+  },
+  {
+    "id": 70,
+    "name": "Книжкова полиця",
+    "description": "Стильна книжкова полиця для дому та офісу.",
+    "price": 1299.99,
+    "category": "Офіс, школа, книги",
+    "subcategory": "Меблі",
+    "images": [
+      "./assets/goods/bookshelf_1.jpg",
+      "./assets/goods/bookshelf_2.jpg"
+    ],
+    "stock": 30,
+    "rating": 4.7
+  },
+  {
+    "id": 71,
+    "name": "Щоденник",
+    "description": "Класичний щоденник в твердій обкладинці.",
+    "price": 199.99,
+    "category": "Офіс, школа, книги",
+    "subcategory": "Канцтовари",
+    "images": [
+      "./assets/goods/diary_1.jpg",
+      "./assets/goods/diary_2.jpg"
+    ],
+    "stock": 150,
+    "rating": 4.5
+  },
+  {
+    "id": 72,
+    "name": "Набір маркерів",
+    "description": "Професійний набір маркерів різних кольорів.",
+    "price": 349.99,
+    "category": "Офіс, школа, книги",
+    "subcategory": "Канцтовари",
+    "images": [
+      "./assets/goods/marker_set_1.jpg",
+      "./assets/goods/marker_set_2.jpg"
+    ],
+    "stock": 70,
+    "rating": 4.8
+  },
+  {
+    "id": 73,
+    "name": "Графічний планшет",
+    "description": "Планшет для малювання та дизайну.",
+    "price": 2999.99,
+    "category": "Офіс, школа, книги",
+    "subcategory": "Електроніка",
+    "images": [
+      "./assets/goods/graphic_tablet_1.jpg",
+      "./assets/goods/graphic_tablet_2.jpg"
+    ],
+    "stock": 25,
+    "rating": 4.9
+  },
+  {
+    "id": 74,
+    "name": "Калькулятор",
+    "description": "Науковий калькулятор для складних обчислень.",
+    "price": 499.99,
+    "category": "Офіс, школа, книги",
+    "subcategory": "Електроніка",
+    "images": [
+      "./assets/goods/calculator_1.jpg",
+      "./assets/goods/calculator_2.jpg"
+    ],
+    "stock": 60,
+    "rating": 4.7
+  },
+  {
+    "id": 75,
+    "name": "Червоне вино",
+    "description": "Сухе червоне вино вищої якості.",
+    "price": 399.99,
+    "category": "Алкогольні напої та продукти",
+    "subcategory": "Вина",
+    "images": [
+      "./assets/goods/red_wine_1.jpg",
+      "./assets/goods/red_wine_2.jpg"
+    ],
+    "stock": 100,
+    "rating": 4.8
+  },
+  {
+    "id": 76,
+    "name": "Віскі",
+    "description": "Преміальний односолодовий віскі.",
+    "price": 1299.99,
+    "category": "Алкогольні напої та продукти",
+    "subcategory": "Міцні напої",
+    "images": [
+      "./assets/goods/whiskey_1.jpg",
+      "./assets/goods/whiskey_2.jpg"
+    ],
+    "stock": 50,
+    "rating": 4.9
+  },
+  {
+    "id": 77,
+    "name": "Пиво крафтове",
+    "description": "Набір крафтового пива різних сортів.",
+    "price": 299.99,
+    "category": "Алкогольні напої та продукти",
+    "subcategory": "Пиво",
+    "images": [
+      "./assets/goods/craft_beer_1.jpg",
+      "./assets/goods/craft_beer_2.jpg"
+    ],
+    "stock": 80,
+    "rating": 4.7
+  },
+  {
+    "id": 78,
+    "name": "Шампанське",
+    "description": "Ігристе вино брют.",
+    "price": 599.99,
+    "category": "Алкогольні напої та продукти",
+    "subcategory": "Шампанське",
+    "images": [
+      "./assets/goods/champagne_1.jpg",
+      "./assets/goods/champagne_2.jpg"
+    ],
+    "stock": 70,
+    "rating": 4.8
+  },
+  {
+    "id": 79,
+    "name": "Сир пармезан",
+    "description": "Твердий італійський сир вищої якості.",
+    "price": 399.99,
+    "category": "Алкогольні напої та продукти",
+    "subcategory": "Сири",
+    "images": [
+      "./assets/goods/parmesan_1.jpg",
+      "./assets/goods/parmesan_2.jpg"
+    ],
+    "stock": 40,
+    "rating": 4.9
+  },
+  {
+    "id": 80,
+    "name": "Оливкова олія",
+    "description": "Екстра віргінська оливкова олія.",
+    "price": 249.99,
+    "category": "Алкогольні напої та продукти",
+    "subcategory": "Олії",
+    "images": [
+      "./assets/goods/olive_oil_1.jpg",
+      "./assets/goods/olive_oil_2.jpg"
+    ],
+    "stock": 90,
+    "rating": 4.7
+  },
+  {
+    "id": 81,
+    "name": "Кава в зернах",
+    "description": "Ароматна кава в зернах вищого сорту.",
+    "price": 349.99,
+    "category": "Алкогольні напої та продукти",
+    "subcategory": "Кава",
+    "images": [
+      "./assets/goods/coffee_beans_1.jpg",
+      "./assets/goods/coffee_beans_2.jpg"
+    ],
+    "stock": 100,
+    "rating": 4.8
+  },
+  {
+    "id": 82,
+    "name": "Шоколад чорний",
+    "description": "Преміальний чорний шоколад з високим вмістом какао.",
+    "price": 129.99,
+    "category": "Алкогольні напої та продукти",
+    "subcategory": "Солодощі",
+    "images": [
+      "./assets/goods/dark_chocolate_1.jpg",
+      "./assets/goods/dark_chocolate_2.jpg"
+    ],
+    "stock": 120,
+    "rating": 4.7
+  },
+  {
+    "id": 83,
+    "name": "Чай зелений",
+    "description": "Високоякісний зелений чай.",
+    "price": 199.99,
+    "category": "Алкогольні напої та продукти",
+    "subcategory": "Чай",
+    "images": [
+      "./assets/goods/green_tea_1.jpg",
+      "./assets/goods/green_tea_2.jpg"
+    ],
+    "stock": 80,
+    "rating": 4.6
+  },
+  {
+    "id": 84,
+    "name": "Мед натуральний",
+    "description": "Натуральний квітковий мед.",
+    "price": 179.99,
+    "category": "Алкогольні напої та продукти",
+    "subcategory": "Мед",
+    "images": [
+      "./assets/goods/honey_1.jpg",
+      "./assets/goods/honey_2.jpg"
+    ],
+    "stock": 60,
+    "rating": 4.8
+  },
+  {
+    "id": 85,
+    "name": "Пральний порошок",
+    "description": "Концентрований пральний порошок для всіх типів тканин.",
+    "price": 199.99,
+    "category": "Побутова хімія",
+    "subcategory": "Засоби для прання",
+    "images": [
+      "./assets/goods/laundry_detergent_1.jpg",
+      "./assets/goods/laundry_detergent_2.jpg"
+    ],
+    "stock": 100,
+    "rating": 4.7
+  },
+  {
+    "id": 86,
+    "name": "Засіб для миття посуду",
+    "description": "Ефективний засіб для миття посуду з лимонним ароматом.",
+    "price": 89.99,
+    "category": "Побутова хімія",
+    "subcategory": "Засоби для кухні",
+    "images": [
+      "./assets/goods/dish_soap_1.jpg",
+      "./assets/goods/dish_soap_2.jpg"
+    ],
+    "stock": 120,
+    "rating": 4.6
+  },
+  {
+    "id": 87,
+    "name": "Освіжувач повітря",
+    "description": "Автоматичний освіжувач повітря з різними ароматами.",
+    "price": 299.99,
+    "category": "Побутова хімія",
+    "subcategory": "Освіжувачі повітря",
+    "images": [
+      "./assets/goods/air_freshener_1.jpg",
+      "./assets/goods/air_freshener_2.jpg"
+    ],
+    "stock": 80,
+    "rating": 4.5
+  },
+  {
+    "id": 88,
+    "name": "Засіб для чищення унітазу",
+    "description": "Потужний засіб для чищення та дезінфекції унітазу.",
+    "price": 129.99,
+    "category": "Побутова хімія",
+    "subcategory": "Засоби для ванної",
+    "images": [
+      "./assets/goods/toilet_cleaner_1.jpg",
+      "./assets/goods/toilet_cleaner_2.jpg"
+    ],
+    "stock": 90,
+    "rating": 4.7
+  },
+  {
+    "id": 89,
+    "name": "Засіб для миття вікон",
+    "description": "Ефективний засіб для миття вікон та дзеркал без розводів.",
+    "price": 109.99,
+    "category": "Побутова хімія",
+    "subcategory": "Засоби для прибирання",
+    "images": [
+      "./assets/goods/window_cleaner_1.jpg",
+      "./assets/goods/window_cleaner_2.jpg"
+    ],
+    "stock": 70,
+    "rating": 4.8
+  },
+  {
+    "id": 90,
+    "name": "Відбілювач",
+    "description": "Ефективний відбілювач для білизни та видалення плям.",
+    "price": 79.99,
+    "category": "Побутова хімія",
+    "subcategory": "Засоби для прання",
+    "images": [
+      "./assets/goods/bleach_1.jpg",
+      "./assets/goods/bleach_2.jpg"
+    ],
+    "stock": 110,
+    "rating": 4.6
+  },
+  {
+    "id": 91,
+    "name": "Пральний порошок",
+    "description": "Універсальний пральний порошок для всіх типів тканин.",
+    "price": 129.99,
+    "category": "Побутова хімія",
+    "subcategory": "Засоби для прання",
+    "images": [
+      "./assets/goods/detergent_1.jpg",
+      "./assets/goods/detergent_2.jpg"
+    ],
+    "stock": 85,
+    "rating": 4.8
+  },
+  {
+    "id": 92,
+    "name": "Засіб для миття посуду",
+    "description": "Ефективний засіб для миття посуду з лимонним ароматом.",
+    "price": 59.99,
+    "category": "Побутова хімія",
+    "subcategory": "Засоби для кухні",
+    "images": [
+      "./assets/goods/dish_soap_1.jpg",
+      "./assets/goods/dish_soap_2.jpg"
+    ],
+    "stock": 150,
+    "rating": 4.7
+  }
+]
