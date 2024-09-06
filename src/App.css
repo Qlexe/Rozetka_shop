@@ -1,3 +1,33 @@
 p,span {
   font-size: 14px;
 }
+
+.menubar {
+    position: relative; /* Це потрібно, щоб елемент міг рухатися відносно свого початкового положення */
+    animation: shift 2s ease-in-out infinite; /* Застосування анімації до елементу */
+}
+
+@keyframes shift {
+    0% {
+        left: 0; /* Початкова позиція елемента */
+    }
+    50% {
+        left: 100px; /* Позиція на половині анімації */
+    }
+    100% {
+        left: 0; /* Повернення до початкової позиції */
+    }
+}
+
+#side-menu {
+    position: fixed;
+    left: -200px; /* Hide the menu initially */
+    width: 200px;
+    height: 100%;
+    background-color: #f8f9fa;
+    transition: left 0.3s; /* Add a transition effect */
+  }
+  
+  #side-menu.open {
+    left: 0; /* Show the menu when it has the "open" class */
+  }

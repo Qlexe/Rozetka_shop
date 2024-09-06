@@ -13,7 +13,12 @@ function Header() {
     <div className="layout fixed z-50 w-full bg-stone-900">
       <header className="App-header mx-auto flex h-min max-w-[1600px] flex-row items-center justify-between px-[32px] py-4">
         <div className="header_menu-button mr-4 flex h-10 w-10 cursor-pointer justify-center hover:rounded hover:bg-stone-600">
-          <button className="">
+          <button
+            className=""
+            onClick={function () {
+              document.getElementById("side-menu").classList.toggle("open");
+            }}
+          >
             <img src={menuIcon} alt="menu" />
           </button>
         </div>
@@ -25,8 +30,8 @@ function Header() {
         </div>
         <div className="header_catalog-button mr-4">
           <button className="flex w-32 justify-center rounded-lg bg-stone-600 py-2 hover:bg-stone-500">
-            <img className="mr-2" src={catalogIcon} alt="catalog_button" />
-            <span className="text-white">Каталог</span>
+            <img className="mr-3" src={catalogIcon} alt="catalog_button" />
+            <span className="text-base text-white">Каталог</span>
           </button>
         </div>
 
@@ -71,6 +76,20 @@ function Header() {
         <div className="header_user-card flex h-10 w-10 cursor-pointer items-center justify-center hover:rounded hover:bg-stone-600">
           <button className="">
             <img className="h-6" src={basketIcon} alt="User Card" />
+          </button>
+        </div>
+      </header>
+    </div>
+  );
+}
+
+function MenuBar() {
+  return (
+    <div className="layout fixed z-50 w-full bg-stone-900">
+      <header className="App-header mx-auto flex h-min max-w-[1600px] flex-row items-center justify-between px-[32px] py-4">
+        <div className="header_menu-button mr-4 flex h-10 w-10 cursor-pointer justify-center hover:rounded hover:bg-stone-600">
+          <button className="">
+            <img src={menuIcon} alt="menu" />
           </button>
         </div>
       </header>
